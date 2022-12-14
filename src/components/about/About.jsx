@@ -2,6 +2,9 @@ import './about.css'
 
 export default function About() {
     return(
-        <h1>Sobre</h1>
+        <section id='about'>
+
+            <h1>Sobre</h1>
+        </section>
     )
 }

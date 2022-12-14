@@ -55,6 +55,7 @@ h1,h2,h3,h4,h5 {
 
 section{
   margin-top: 8rem;
+  height: 100vh;
 }
 
 section > h2, section >h5 {
@@ -89,6 +90,7 @@ a:hover {
   border-radius: 0.4rem;
   cursor: pointer;
   border: 1px solid var(--color-primary);
+  /* duração e tipo do efeito de transição */
   transition: var(--transition);
   
 }

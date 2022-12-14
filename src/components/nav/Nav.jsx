@@ -7,9 +7,9 @@ export default function Nav(){
     return(
         <nav>
             <a href="#"><AiOutlineHome/></a>
-            <a href="#abaut"><AiOutlineUser/></a>
+            <a href="#about"><AiOutlineUser/></a>
             <a href="#experience"><BiBook/></a>
-            <a href="#"><BiMessageSquareDetail/></a>
+            <a href="#contact"><BiMessageSquareDetail/></a>
         </nav>
     )
 }
