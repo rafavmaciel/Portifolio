@@ -2,6 +2,7 @@ header {
     height: 100vh;
     padding-top: 6rem;
     /* overflow: hidden; */
+    margin-bottom: 20rem;
 }
 
 .header__container {
