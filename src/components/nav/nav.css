@@ -1,0 +1,39 @@
+nav{
+    background: rgba(0,0,0,0.4);
+    /* width: max-content vai definir o tamando maximo de acordo com o tamanho do conteudo */
+    width: max-content;
+    display: block;
+    padding: 0.7rem 1.7rem;
+    /* traz o conteudo para uma camada a frente */
+    z-index: 2;
+    /* fixa o objeto na posição definida(left e bottom) e não desaparece nem com o scroll*/
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 2rem;
+    display: flex;
+    gap: 1rem;
+    border-radius: 3rem;
+    /* vai deixar o conteudo com blur */
+    backdrop-filter: blur(10px);
+
+}
+
+nav a{
+    color: var(--color-white);
+    font-size: 1.7rem;
+    transition: var(--transition);
+}
+
+nav a:hover{
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 4rem;
+    padding: 0.2rem 0.6rem;
+    color: var(--color-primary);
+}
+nav a.active{
+    background: var(--color-bg);
+    border-radius: 3rem; 
+}
+
+
