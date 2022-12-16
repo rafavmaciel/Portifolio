@@ -1,7 +1,7 @@
 import "./App.css";
 import Header from "./components/header/Header";
 import Nav from "./components/nav/Nav";
-import Portifolio from "./components/portifolio/Portifolio";
+import Portfolio from "./components/portifolio/Portfolio";
 import About from "./components/about/About";
 import Experience from "./components/experience/Experience"
 import Contact from "./components/contact/Contact"
@@ -16,7 +16,7 @@ function App() {
                     <Nav/>
                     <About/>
                     <Experience/>
-                    <Portifolio />
+                    <Portfolio />
                     <Contact/>
                     <Footer/>
                 </>

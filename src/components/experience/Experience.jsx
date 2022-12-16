@@ -5,8 +5,8 @@ import ExperienceItem from "./ExperienceItem";
 export default function Experience() {
     return (
         <section id="experience">
-            <h5> Que habilidades eu possuo </h5>
-            <h1> Minhas experiências</h1>
+            <h5> Tenho familiaridade com: </h5>
+            <h1> Minhas habilidades </h1>
             <div className="container experience__container">
                 <div className="experience__frontend">
                     <h3> Desenvolvimento Frontend</h3>
